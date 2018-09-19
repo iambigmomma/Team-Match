@@ -24,7 +24,7 @@ class Enroll extends Component {
                     email: true
                 },
                 valid: false,
-                validationMessage:''
+                validationMessage:'',
             }
         }
     }
