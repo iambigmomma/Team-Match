@@ -1,7 +1,7 @@
 import React from 'react';
 import AdminNav from '../Components/admin/nav/AdminNav';
 
-const Admin_layout = (props) => {
+const AdminLayout = (props) => {
     return (
         <div className="admin_container">
             <div className="admin_left_nav">
@@ -14,4 +14,4 @@ const Admin_layout = (props) => {
     );
 };
 
-export default Admin_layout;
+export default AdminLayout;

@@ -8,7 +8,7 @@ import AdminMatches from './Components/admin/matches/index';
 import Home from './Components/home';
 import PrivateRoute from './Components/authRoutes/privateRoutes';
 import PublicRoute from './Components/authRoutes/publicRoutes';
-import AddEditMatch from './Components/admin/matches/addMatches';
+import AddEditMatch from './Components/admin/matches/addEditMatches';
 
 const Routes = (props) => {
     return (
