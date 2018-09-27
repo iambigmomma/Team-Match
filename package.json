@@ -8,6 +8,8 @@
     "core-js": "^2.5.7",
     "d3-ease": "^1.0.3",
     "firebase": "^5.0.4",
+    "husky": "^1.0.1",
+    "pretty-quick": "^1.7.0",
     "react": "^16.5.0",
     "react-dom": "^16.5.0",
     "react-firebase-file-uploader": "^2.4.1",
@@ -22,6 +24,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "pre-commit": "pretty-quick --staged"
   }
 }

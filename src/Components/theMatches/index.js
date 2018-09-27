@@ -94,10 +94,11 @@ class TheMatches extends Component {
                                     All
                                 </div>
                                 <div className={`option ${state.resultFilter === 'W' ? 'active': ''}`}
-                                onClick={() => this.showResult('W')}
+                                onClick={() =>
+                                     this.showResult('W')}
                                 >
                                     Win
-                                </div>
+                        </div>
                                 <div className={`option ${state.resultFilter === 'L' ? 'active': ''}`}
                                 onClick={() => this.showResult('L')}
                                 >
