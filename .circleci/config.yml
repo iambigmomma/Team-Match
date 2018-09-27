@@ -28,7 +28,7 @@ jobs:
       - image: circleci/node:7.10
     steps:
     - checkout
-    - run: echo "hello you are in circleCI"
+    - run: echo "hello"
 workflows:
   version: 2
   build-test-and-lint:
