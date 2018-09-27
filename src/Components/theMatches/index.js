@@ -70,16 +70,16 @@ class TheMatches extends Component {
                                     onClick={() => this.showPlayed('All')}
                                 >
                                     All
-                                </div>
+    </div>
                                 <div className={`option ${state.playedFilter === 'Yes' ? 'active': ''}`}
                                 onClick={() => this.showPlayed('Yes')}
                                 >
                                     Played
                                 </div>
-                                <div className={`option ${state.playedFilter === 'No' ? 'active': ''}`}
+         <div className={`option ${state.playedFilter === 'No' ? 'active': ''}`}
                                 onClick={() => this.showPlayed('No')}
                                 >
-                                    Not played
+      Not played
                                 </div>
                             </div>
                         </div>
